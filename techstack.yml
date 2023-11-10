@@ -1,0 +1,180 @@
+repo_name: ktreharrison/security-on-github
+report_id: fe7d801349640d88d3536344323b8ff6
+repo_type: Public
+timestamp: '2023-11-09T13:17:45+00:00'
+requested_by: ktreharrison
+provider: github
+branch: main
+detected_tools_count: 10
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: githubteacher
+  last_updated_on: 2018-09-19 11:19:30.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: githubteacher
+  last_updated_on: 2018-09-19 11:19:30.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: package.json
+  last_updated_by: a-a-ron
+  last_updated_on: 2020-04-17 17:17:10.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: a-a-ron
+  last_updated_on: 2020-04-17 17:17:10.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: ejs
+  description: Embedded JavaScript templates
+  package_url: https://www.npmjs.com/ejs
+  version: 2.5.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: githubteacher
+  last_updated_on: 2018-09-19 11:19:30.000000000 Z
+  vulnerabilities:
+  - name: ejs template injection vulnerability
+    cve_id: CVE-2022-29078
+    cve_url: https://github.com/advisories/GHSA-phwq-j96m-2c2q
+    detected_date: Apr 28
+    severity: critical
+    first_patched: 3.1.7
+- name: hoek
+  description: General purpose node utilities
+  package_url: https://www.npmjs.com/hoek
+  version: 4.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16516/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: githubteacher
+  last_updated_on: 2018-09-19 11:19:30.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in hoek
+    cve_id: CVE-2018-3728
+    cve_url: https://github.com/advisories/GHSA-jp4x-w63m-7wgm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 4.2.1
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 6.4.1
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: githubteacher
+  last_updated_on: 2018-09-19 11:19:30.000000000 Z
+  vulnerabilities:
+  - name: npm Vulnerable to Global node_modules Binary Overwrite
+    cve_id: CVE-2019-16777
+    cve_url: https://github.com/advisories/GHSA-4328-8hgf-7wjr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.13.4
+  - name: Arbitrary File Write in npm
+    cve_id: CVE-2019-16775
+    cve_url: https://github.com/advisories/GHSA-m6cx-g6qm-p2cx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.13.3
+  - name: npm symlink reference outside of node_modules
+    cve_id: CVE-2019-16776
+    cve_url: https://github.com/advisories/GHSA-x8qc-rrcw-4r46
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.13.3
+  - name: npm CLI exposing sensitive information through logs
+    cve_id: CVE-2020-15095
+    cve_url: https://github.com/advisories/GHSA-93f3-23rq-pjfp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 6.14.6
